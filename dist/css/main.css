@@ -403,7 +403,9 @@ img {
   #header-home {
     height: 30rem; }
     #header-home .header-content {
-      padding-top: 5rem; } }
+      padding-top: 5rem; }
+  .btn-light {
+    padding: .5rem 0.3rem; } }
 
 @media (max-width: 500px) {
   #main-nav {
