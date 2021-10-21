@@ -11,6 +11,13 @@
   border: none;
   cursor: pointer; }
 
+.center {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  justify-content: center; }
+
 .btn-main {
   color: #333;
   background-color: #00ADB5; }
