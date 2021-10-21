@@ -14,8 +14,9 @@
   cursor: pointer;
 }
 .center{
-  margin: 0 auto;
-  display: inline-block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .btn{
