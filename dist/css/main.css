@@ -141,7 +141,7 @@ button[class^='btn-']:hover, a[class^='btn-']:hover, input[class^='btn-']:hover 
     display: block;
     padding-top: 75%;
     overflow: hidden; }
-  .item-image img {
+  .item-image img, .item video {
     position: absolute;
     top: 0;
     left: 0;
@@ -215,16 +215,16 @@ img {
     display: flex; }
   #main-nav li {
     padding: 1rem 1.5rem; }
-  #main-nav a {
+  #main-nav li a {
     text-decoration: none;
     color: #222831;
     text-transform: uppercase;
     border-bottom: 3px transparent solid;
     padding-bottom: 0.5rem;
     transition: border-color 0.5s; }
-    #main-nav a:hover {
+    #main-nav li a:hover {
       border-color: #393e46; }
-    #main-nav a.current {
+    #main-nav li a.current {
       border-color: #00ADB5; }
 
 #header-home {
