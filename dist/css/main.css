@@ -292,7 +292,7 @@ img {
     width: 15px;
     line-height: 15px;
     padding: 1rem;
-    transition: all 1s; }
+    transition: all 750ms cubic-bezier(0.2, 1, 0.3, 1); }
   #home-c .process-icon {
     border-radius: 50%;
     background: #222831;
@@ -303,7 +303,7 @@ img {
     line-height: 70px;
     text-align: center;
     position: relative;
-    transition: all 1s; }
+    transition: all 750ms cubic-bezier(0.2, 1, 0.3, 1); }
     #home-c .process-icon:hover {
       background: #00ADB5;
       width: 90px;
